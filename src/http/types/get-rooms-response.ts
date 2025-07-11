@@ -1,4 +1,4 @@
-export type GetRoomsAPIResponse = {
+export type GetRoomsResponse = {
   rooms: Array<{
     id: string
     name: string
