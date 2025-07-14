@@ -10,7 +10,7 @@ export function useRoomQuestions(roomId: string) {
       )
       const result: GetRoomQuestionsResponse = await response.json()
 
-      return result.questions
+      return result
     },
   })
 }

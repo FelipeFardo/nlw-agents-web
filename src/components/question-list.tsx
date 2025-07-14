@@ -15,7 +15,7 @@ export function QuestionList({ roomId }: QuestionListProps) {
         </h2>
       </div>
 
-      {data?.map((question) => {
+      {data?.questions?.map((question) => {
         return <QuestionItem key={question.id} question={question} />
       })}
     </div>
